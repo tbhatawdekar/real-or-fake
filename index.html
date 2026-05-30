@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real or Fake</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>Real or Fake</h1>
+      <p class="subtitle">Can you tell what's real and what's AI-generated?</p>
+    </header>
+
+    <main>
+      <div class="game-area">
+        <button class="choice-btn real-btn" id="real-btn" aria-label="Real">
+          Real
+        </button>
+
+        <div class="photo-container">
+          <img id="photo" src="" alt="Guess if this image is real or fake">
+          <div id="feedback" class="feedback hidden" role="status"></div>
+        </div>
+
+        <button class="choice-btn fake-btn" id="fake-btn" aria-label="Fake">
+          Fake
+        </button>
+      </div>
+
+      <p class="score" id="score">0 / 0 correct</p>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
