@@ -1,23 +1,21 @@
 # Real or Fake
 
-A simple web game where you guess whether an image is real or AI-generated.
+`Real or Fake` is a lightweight deepfake detector browser game, made for my CSE 480 final project, where players guess whether each image is a real photo or AI-generated.
 
-## How to play
+## Setup
 
-1. Open `index.html` in your browser (or run a local server).
-2. Look at the image and click **Real** (left) or **Fake** (right).
-3. Get feedback, then move on to the next image. The game loops through all images in random order.
+This project is plain HTML/CSS/JavaScript, so there is no install step.
 
-## Adding images
-
-- Put real photos in the `real/` directory.
-- Put AI-generated images in the `fake/` directory.
-- Register each new image in the `IMAGES` array in `app.js`.
-
-## Run locally
+1. From the project folder, start a local server:
 
 ```bash
 python3 -m http.server 8000
 ```
 
-Then visit http://localhost:8000
+2. Open [http://localhost:8000](http://localhost:8000) in your browser.
+
+## Gameplay
+
+- Click **Real** or **Fake** for the current image.
+- You get immediate feedback and a running score.
+- Images are shuffled and loop continuously.
