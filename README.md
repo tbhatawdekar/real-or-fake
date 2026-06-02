@@ -2,6 +2,7 @@
 
 `Real or Fake` is a lightweight deepfake detector browser game, made for my CSE 480 final project, where players guess whether each image is a real photo or AI-generated.
 <img width="570" height="387" alt="image" src="https://github.com/user-attachments/assets/489c6487-92cb-4c58-b360-a024b22640e0" />
+
 All images used were sourced from the following dataset: https://www.kaggle.com/datasets/prithivsakthiur/deepfake-vs-real-20k
 ## Setup
 
